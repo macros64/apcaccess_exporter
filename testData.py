@@ -1,0 +1,52 @@
+
+testMessage = """APC      : 001,049,1164
+DATE     : 2024-05-11 16:51:57 +0400  
+HOSTNAME : pve
+VERSION  : 3.14.14 (31 May 2016) debian
+UPSNAME  : macr0s  
+CABLE    : Custom Cable Smart
+DRIVER   : APC Smart UPS (any)
+UPSMODE  : Stand Alone
+STARTTIME: 2024-04-17 12:28:57 +0400  
+MODEL    : Smart-UPS 620   
+STATUS   : ONLINE 
+LINEV    : 237.6 Volts
+LOADPCT  : 11.0 Percent
+BCHARGE  : 100.0 Percent
+TIMELEFT : 47.0 Minutes
+MBATTCHG : 10 Percent
+MINTIMEL : 5 Minutes
+MAXTIME  : 0 Seconds
+MAXLINEV : 237.6 Volts
+MINLINEV : 227.5 Volts
+OUTPUTV  : 237.6 Volts
+SENSE    : High
+DWAKE    : 0 Seconds
+DSHUTD   : 180 Seconds
+DLOWBATT : 2 Minutes
+LOTRANS  : 200.0 Volts
+HITRANS  : 253.0 Volts
+RETPCT   : 0.0 Percent
+ALARMDEL : Low Battery
+BATTV    : 13.7 Volts
+LINEFREQ : 50.0 Hz
+LASTXFER : Line voltage notch or spike
+NUMXFERS : 47
+XONBATT  : 2024-05-11 16:08:02 +0400  
+TONBATT  : 0 Seconds
+CUMONBATT: 60 Seconds
+XOFFBATT : 2024-05-11 16:08:04 +0400  
+SELFTEST : NO
+STESTI   : 336
+STATFLAG : 0x05000008
+REG1     : 0x00
+REG2     : 0x00
+REG3     : 0x00
+MANDATE  : 04/08/00
+SERIALNO : NS0015242130
+BATTDATE : 04/08/00
+NOMOUTV  : 230 Volts
+NOMBATTV : 12.0 Volts
+FIRMWARE : 22.5.I
+END APC  : 2024-05-11 16:52:44 +0400 
+"""
