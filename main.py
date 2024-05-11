@@ -13,8 +13,9 @@ apc_load_pct = Gauge("apc_load_pct", "UPS load percent")
 
 
 def updateMetrics():
-    proc = subprocess.run("cmd /c dir", capture_output = True)
-    apc = apcParser.parseUpsData(testData.testMessage) #proc.stdout
+    proc = subprocess.run("apcaccess", capture_output = True)
+    apc = apcParser.parseUpsData(proc.stdout.decode())   # use testData.testMessage for testing purposes
+
     print(f"UPS {apc.model} serial {apc.serial} is {apc.status}, line {apc.lineV} V, battery changed {apc.battPct}%, UPS load {apc.loadPct}%. Last start time is {apc.lastStartTime}")
 
     apc_line_voltage.set(apc.lineV)
